@@ -1,0 +1,77 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "aws pug",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "hello",
+            "say hello",
+            "say hello world"
+          ]
+        },
+        {
+          "name": "UpcomingEventsIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "when is the next event",
+            "what is the next meetup",
+            "what is the next event about",
+            "tell me about the next meetup",
+            "when is the next meeting",
+            "is there a meetup this week",
+            "what is the next event",
+            "where is the next event",
+            "where is the next meetup",
+            "what is the next meeting about",
+            "tell me about the next meeting",
+            "next event"
+          ]
+        },
+        {
+          "name": "AWSPugInfoIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "what is aws pug about",
+            "what is aws pug",
+            "what does aws pug stand for",
+            "who is aws pug",
+            "tell me about aws pug",
+            "tell me about the portsmouth user group",
+            "what is the aws portsmouth user group",
+            "tell me more"
+          ]
+        }
+      ]
+    }
+  }
+}
