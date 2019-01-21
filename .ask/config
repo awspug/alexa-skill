@@ -16,7 +16,7 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "384093bece38772ae613d008dcc2a9d0"
+          "eTag": "41797be15e61df766ec70dfc6c95e48f"
         },
         "interactionModel": {
           "en-US": {
@@ -25,13 +25,16 @@
         },
         "lambda": [
           {
-            "arn": "arn:aws:lambda:us-east-1:675087241163:function:ask-custom-awspug-default",
-            "functionName": "ask-custom-awspug-default",
-            "awsRegion": "us-east-1",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "d973ef35-bdee-4d47-927d-12003533c025"
+            "arn": "arn:aws:lambda:us-east-1:675087241163:function:ask-custom-awspug-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-awspug-default",
+            "handler": "index.handler",
+            "revisionId": "52522711-8c5c-4189-8e0c-a5c14c8834a5",
+            "runtime": "nodejs8.10"
           }
         ]
       },

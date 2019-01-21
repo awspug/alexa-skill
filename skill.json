@@ -3,18 +3,18 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "AWS PUG provides information from the Amazon Web Services Portsmouth User Group",
           "examplePhrases": [
-            "Alexa open hello world",
-            "Alexa tell hello world hello",
-            "Alexa ask hello world say hello"
+            "Alexa open AWS PUG",
+            "Alexa ask AWS PUG when is the next meetup",
+            "Alexa ask AWS PUG what is AWS PUG"
           ],
           "name": "aws pug",
-          "description": "Sample Full Description"
+          "description": "AWS PUG provides information from the Amazon Web Services Portsmouth User Group. Currently this skill allows users to ask about future events and get information about AWS PUG. Stay tuned for future updates."
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
+      "testingInstructions": "Invoke the skill by saying Alexa, Open AWS PUG",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
     },
