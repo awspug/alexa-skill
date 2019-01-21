@@ -14,9 +14,9 @@ Install Dependancies:
 cd lambda/custom && npm install
 ```
 ## Current Functionality
-    ### UpcomingEventsIntent
+### UpcomingEventsIntent
     Hits the meetup API for future events and reads back the next event
-    ### AWSPugInfoIntent
+### AWSPugInfoIntent
     Hard coded description of AWS PUG is read back, text from Meetup Description
 
 ## Deploying
