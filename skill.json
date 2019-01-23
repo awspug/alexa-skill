@@ -52,7 +52,7 @@
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Invoke the skill by saying Alexa, Open AWS PUG",
+      "testingInstructions": "Invoke the skill by saying Alexa, Open AWS PUG. The skill was recently rejected due to impropper trademark usage. We are an AWS affiliated meetup group as seen at this page here and I believe we should be allowed to use the AWS trademark as a result. https://aws.amazon.com/developer/community/usergroups/americas/ (click on Portsmouth) Please reach out with any questions. ",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
     }

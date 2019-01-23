@@ -16,11 +16,11 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "41797be15e61df766ec70dfc6c95e48f"
+          "eTag": "f0305903bd943b24692b453c761f17d3"
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "23822071e9d5fd2f8e57e4a12b072e1c"
+            "eTag": "0421b87f1ae786accec71f73441c809a"
           }
         },
         "lambda": [
@@ -33,7 +33,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-awspug-default",
             "handler": "index.handler",
-            "revisionId": "52522711-8c5c-4189-8e0c-a5c14c8834a5",
+            "revisionId": "f88bc531-35f2-45a1-81dc-b89b126dd84a",
             "runtime": "nodejs8.10"
           }
         ]
