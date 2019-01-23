@@ -1,7 +1,7 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.d23ea39e-8a5f-44ee-a60a-70c26e10cef4",
+      "skill_id": "amzn1.ask.skill.257de1ae-20a5-4380-8185-9540b913e1ad",
       "was_cloned": false,
       "merge": {
         "manifest": {
@@ -28,7 +28,7 @@
             "alexaUsage": [
               "custom/default"
             ],
-            "arn": "arn:aws:lambda:us-east-1:675087241163:function:ask-custom-awspug-default",
+            "arn": "arn:aws:lambda:us-east-1:583076493282:function:ask-custom-awspug-default",
             "awsRegion": "us-east-1",
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-awspug-default",
@@ -39,21 +39,6 @@
         ]
       },
       "in_skill_products": []
-    },
-    "Chris": {
-      "skill_id": "",
-      "was_cloned": false,
-      "merge": {
-        "manifest": {
-          "apis": {
-            "custom": {
-              "endpoint": {
-                "uri": "ask-custom-aws_pug-Chris"
-              }
-            }
-          }
-        }
-      }
     }
   }
 }

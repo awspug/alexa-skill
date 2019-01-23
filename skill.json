@@ -1,30 +1,60 @@
 {
   "manifest": {
-    "publishingInformation": {
-      "locales": {
-        "en-US": {
-          "summary": "AWS PUG provides information from the Amazon Web Services Portsmouth User Group",
-          "examplePhrases": [
-            "Alexa open AWS PUG",
-            "Alexa ask AWS PUG when is the next meetup",
-            "Alexa ask AWS PUG what is AWS PUG"
-          ],
-          "name": "aws pug",
-          "description": "AWS PUG provides information from the Amazon Web Services Portsmouth User Group. Currently this skill allows users to ask about future events and get information about AWS PUG. Stay tuned for future updates."
-        }
-      },
-      "isAvailableWorldwide": true,
-      "testingInstructions": "Invoke the skill by saying Alexa, Open AWS PUG",
-      "category": "EDUCATION_AND_REFERENCE",
-      "distributionCountries": []
-    },
-    "apis": {
+   "apis": {
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom"
         }
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "AWS PUG",
+          "smallIconUri": "https://s3.amazonaws.com/awspug/img/alexa_108.png",
+          "largeIconUri": "https://s3.amazonaws.com/awspug/img/alexa_512.png",
+          "summary": "AWS PUG provides information from the Amazon Web Services Portsmouth User Group",
+          "description": "AWS PUG provides information from the Amazon Web Services Portsmouth User Group. Currently this skill allows users to ask about future events and get information about AWS PUG. Stay tuned for future updates.",
+          "examplePhrases": [
+            "Alexa open AWS PUG",
+            "Alexa ask AWS PUG when is the next meetup",
+            "Alexa ask AWS PUG what is AWS PUG"
+          ],
+          "keywords": [
+            "aws",
+            "portsmouth",
+            "boston",
+            "kittery",
+            "portland",
+            "amazon",
+            "web",
+            "services",
+            "meetup",
+            "hack",
+            "lambda",
+            "alexa",
+            "ec2",
+            "cloud",
+            "guru"
+          ],
+          "updatesDescription": "Try asking about the next meetup or ask what AWS PUG is!"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Invoke the skill by saying Alexa, Open AWS PUG",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    }
   }
 }
